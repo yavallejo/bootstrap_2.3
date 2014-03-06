@@ -1,0 +1,13 @@
+body{
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+
+/* Media Queries ----------- */
+		@media all and (max-width : 480px) {
+			 .hero-unit h1{
+			font-size: 28px;
+			padding-bottom: 15px;
+		}	
+	}

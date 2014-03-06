@@ -1,0 +1,222 @@
+<!doctype html>  
+<html lang="es">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>Bootstrap Twitter</title>
+
+		<meta name="description" content="An easy to use CSS 3D slideshow tool for quickly creating good looking HTML presentations.">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
+
+		<link rel="stylesheet" href="lib/zenburn.css">
+	</head>
+	
+	<body>
+		
+		<div id="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Aprendiendoando</h1>
+					<h3 class="inverted">Bootstrap Twitter</h3>
+					<script>
+						// Delicously hacky. Look away.
+						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
+					</script>
+
+					<img src="images/portada.png" width="708" height="300" >
+					
+				</section>
+				
+				<section>
+					<h2>Base css - Codigo - Tablas</h2>
+					<p>&nbsp;</p>
+					<p>
+						 En esta sesion veremos 2 elementos que pertences a Base css
+					</p>
+					
+				</section>
+				
+				<!-- Example of nested vertical slides -->
+				<section>
+					<section>
+						<h2>Codigo</h2>
+						<p>
+							Envuelva en línea fragmentos de código con <code> &lt;code&gt; </code>
+						</p>
+						<a href="#/2/1" class="image">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
+						</a>
+					</section>
+					<section>
+						<h2>&lt;code&gt;</h2>
+						<p>Envuelva en línea fragmentos de código con <code>&lt;code&gt;</code>.</p>
+					
+						<a class="test" href="#">
+							<img width="250" height="100" src="images/sintaxis_code.jpg">
+						</a>
+						
+					</section>
+					<section>
+						<h2>Bloque (Básico)</h2>
+						<p>Usa &lt;pre&gt;</p>
+						<a class="test" href="#">
+							<img width="468" height="100" src="images/bloque_basico.jpg">
+						</a>
+					</section>
+					<section>
+						<h2>Bloque con altura maxima</h2>
+						<p>Si queremos que la maxima altura sea de 350px </p>
+						<a class="test" href="http://jquery.com">
+							<img width="716" height="152" src="images/bloque_scroll.jpg">
+						</a>
+						
+					</section>
+					
+					
+				</section>
+
+				<section>
+					<section>
+						<h2>Tablas</h2>
+						<p>
+							En esta Seccion veremos todo lo relacionado a las tablas
+						</p>
+						<a href="#/2/1" class="image">
+							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
+						</a>
+					</section>
+					<section>
+						<h2>Basica</h2>
+						<p>Solo es agregar la clase table</p>
+						<a class="test" href="#">
+							<img width="298" height="220" src="images/tabla_basica.jpg">
+						</a>
+					</section>
+					<section>
+						<h2>Cebra</h2>
+						<p>Estilo Cebra</p>
+						<a class="test" href="http://twitter.github.com/bootstrap/" target="_blank">
+							<img width="350" height="400" src="images/tabla_cebra.jpg">
+						</a>
+					</section>
+					
+					<section>
+						<h2>Tabla Bordeada</h2>
+						<p>Estilo con bordes </p>
+						<a class="test" href="#">
+							<img width="350" height="400" src="images/tabla_bordes.jpg">
+						</a>
+					</section>
+					<section>
+						<h2>Tabla Con hover</h2>
+						<p>Estilo hover </p>
+						<a class="test" href="#">
+							<img width="350" height="400" src="images/tabla_hover.jpg">
+						</a>
+					</section>
+					<section>
+						<h2>Tabla Con + estilos</h2>
+						<p>.success, .error, .warning, .info </p>
+						<a class="test" href="#">
+							<img width="457" height="519" src="images/tabla_mas.jpg">
+						</a>
+					</section>
+				</section>
+			
+				<section>
+					<h1>Gracias</h1>
+					<p>
+
+						
+						<a href="http://www.aprendiendoando.com/" target="_blank">aprendiendoando</a><br><br>
+						<a href="https://twitter.com/yavallejo" target="_blank">Twitter</a><br><br>
+						<a href="http://www.facebook.com/yavallejo" target="_blank">Facebook</a><br><br>
+
+					</p>
+					
+					<h6 class="inverted">Agradecimientos a Hakim El Hattab / hakim.se Por este maravilloso script en Html5</h6>
+				</section>
+			</div>
+
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Displays presentation progress, max value changes via JS to reflect # of slides -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<!-- Optional libraries for code syntax highlighting and classList support in IE9 -->
+		<script src="lib/highlight.js"></script>
+		<script src="lib/classList.js"></script>
+		
+		<script src="js/reveal.js"></script>
+		
+		<script>
+			// Parse the query string into a key/value object
+			var query = {};
+			location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+				query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+			} );
+
+			// Fires when a slide with data-state=customevent is activated
+			Reveal.addEventListener( 'customevent', function() {
+				alert( '"customevent" has fired' );
+			} );
+
+			// Fires each time a new slide is activated
+			Reveal.addEventListener( 'slidechanged', function( event ) {
+				// event.indexh & event.indexv
+			} );
+
+			Reveal.initialize({
+				// Display controls in the bottom right corner
+				controls: true,
+
+				// Display a presentation progress bar
+				progress: true,
+
+				// If true; each slide will be pushed to the browser history
+				history: true,
+
+				// Loops the presentation, defaults to false
+				loop: false,
+
+				// Flags if mouse wheel navigation should be enabled
+				mouseWheel: true,
+
+				// Apply a 3D roll to links on hover
+				rollingLinks: true,
+
+				// UI style
+				theme: query.theme || 'default', // default/neon
+
+				// Transition style
+				transition: query.transition || 'default' // default/cube/page/concave/linear(2d)
+			});
+
+			hljs.initHighlightingOnLoad();
+		</script>
+
+	</body>
+</html>

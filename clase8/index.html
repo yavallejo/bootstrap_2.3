@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Clase 8 | bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+	<div class="container">
+		<!-- div class="btn-group">
+			<a href="#" class="btn dropdown-toggle" data-toggle="dropdown">
+				Menu1
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Submenu</a></li>
+				<li><a href="">Submenu</a></li>
+				<li><a href="">Submenu</a></li>
+			</ul>
+		</div> -->
+		<div class="btn-group">
+			<button class="btn btn-large">
+				Menu
+			</button>
+
+			<button class="btn dropdown-toggle btn-large" data-toggle="dropdown">
+				<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">Submenu</a></li>
+				<li><a href="">Submenu</a></li>
+				<li><a href="">Submenu</a></li>
+			</ul>
+		</div>
+	</div>
+	<script  src="js/jquery.js"></script>
+	<script  src="js/bootstrap.js"></script>
+	<script  src="js/bootstrap-dropdown.js"></script>
+	<script type="text/javascript">
+		$('.dropdown-toggle').dropdown()
+	</script>
+</body>
+</html>
